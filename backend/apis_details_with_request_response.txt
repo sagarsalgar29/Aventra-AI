@@ -1,0 +1,603 @@
+STP-L02@dhanashri:~$ curl -X POST -d '{
+  "textQuery" : "Spicy Vegetarian Food in ooty, tamil nadu, India"
+}' \
+-H 'Content-Type: application/json' -H 'X-Goog-Api-Key: AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo' \
+-H 'X-Goog-FieldMask: places.displayName,places.formattedAddress,places.id' \
+'https://places.googleapis.com/v1/places:searchText'
+{
+  "places": [
+    {
+      "formattedAddress": "Door no :59 A, Main, Commercial Rd, behind Chelaram Departmental Store, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Kailash Parbat - Pure Vegetarian Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Hotel Charring Cross Complex, 14C, Garden Rd, near Botanical Garden, Pudumund, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Ruchi Bhavanam",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "No.1, Bharathiyar Complex, Charing Cross, Commercial Rd, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Pankaj Bhojanalaya(Pure veg & Jain food)",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Stone House, Stone House, Stone House Area, Thalayathimund, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "The Paradise Pure Veg Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Old Garden Rd, behind classic collection, Pudumund, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Darjeeling Spicy Momo Ooty",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Havelock Rd, Police Quarters, Pudumund, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Earl's Secret",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Darshan Hotel, Woodcock Rd, Kandal, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Darshan Veg ooty",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "NH67 1, 58, Commercial Rd, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Adyar Ananda Bhavan - A2B",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "72A, Commercial Rd, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Lakshmi Illam Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "CP65+8PJ, Ettines Rd, Charing Cross, Bombay Castel, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Spice Non-Veg Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "No.955E, Rohini Junction,Mysore Road, CM7R+64G, Nagapattinam - Coimbatore - Gundlupet Hwy, Monterosa Colony, Kandal, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Amma's Kitchen",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Littlearth Square, Oriental Buildings Commissioner's Road, Summer House Colony, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "The Periodic Table",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "34, Ettines Road,, Charring Cross, Ooty, Bombay Castel, The Nilgiris, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Preethi Veg Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "52-A, Charing Cross, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Chandan Vegetarian Restaurant | OOTY",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "365, Kavitha Complex, Hobart Cross Road, Near ATC Bus Stop, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Thendral Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Alms House Rd, near Market, Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Muthupillai Mess.,(M.Shanmugam.)",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Door No-9A,Hotel Gangothri Sunrise,Club Road, Hill Bunk, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Pooja Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Ground Floor, Ramakrishna Mutt Road, near Sterling Hotel, R.K.Puram, Elk Hill, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Nilgiri Express",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "Upper Bazar, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "OOTY EN VEE Hotel",
+        "languageCode": "en"
+      }
+    },
+    {
+      "formattedAddress": "CM4W+3FF, Kathadimattam, Ooty, Tamil Nadu 643001, India",
+      "displayName": {
+        "text": "Station Vegetarian Restaurant",
+        "languageCode": "en"
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+with id:
+curl -X POST -d '{
+  "textQuery" : "Spicy Non-veg food in Sinhgad Road, Pune, India"
+}' -H 'Content-Type: application/json' -H 'X-Goog-Api-Key: AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo' -H 'X-Goog-FieldMask: places.displayName,places.formattedAddress,places.id,places.reviewSummary' 'https://places.googleapis.com/v1/places:searchText'
+
+
+
+
+
+
+{
+  "places": [
+    {
+      "id": "ChIJG692NV-VwjsRAh7yEVSLB0Q",
+      "formattedAddress": "3, Narveer Tanaji Malusare, Sinhgad Rd, Anand Nagar, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "Shetkari Non Veg",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJqWEboO2VwjsRuMuQdF__EnY",
+      "formattedAddress": "ganga bhagyoday Society, Shop No. B.38, Sinhgad Rd, beside Ganga Bhagyoday, Manik Baug, Anand Nagar, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "Sanas Khanaval (Special Barbeque Chicken & Mutton Thali) non veg biryani.",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJqeEQwFqVwjsRPus_BO_yM3Q",
+      "formattedAddress": "Sinhgad Rd, opposite BUILDING-A, near Meenakshipuram, Vadgaon Budruk, Pune, Maharashtra 411041, India",
+      "displayName": {
+        "text": "Rajdarbar Veg & Non-Veg Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJ0QvskEKVwjsR-LQAczIX-NQ",
+      "formattedAddress": "Survey No. 29, 1A/A5, Shanti Plaza C, B wing, Sinhgad Rd, Shanti Nagar, Kirti Nagar, Vadgaon Budruk, Pune, Maharashtra 411041, India",
+      "displayName": {
+        "text": "Sai Restaurant Veg & Non Veg",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJgWSLuQqVwjsRFUHo2YSJQbQ",
+      "formattedAddress": "Public Food Mall, Main Gate, Sinhgad Rd, opp. to Nanded, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411068, India",
+      "displayName": {
+        "text": "DK Biryani - Sinhagad Road",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJd8OkmFyVwjsRHvFXXrSsmK4",
+      "formattedAddress": "Sr. No 35, 2A, 39/1, AMRUT GANGA, Sinhgad Rd, Manik Baug, Anand Nagar, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "Shorba Family Restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJD6H6U8uVwjsRho3udhGNevU",
+      "formattedAddress": "S NO-60/7/1A/3 NEAR HDFC BANK, Sinhgad Rd, near rejuva skin clinic and abhiruchi multiplex, Wadgaon Budruk, Vadgaon Budruk, branch, Pune, Maharashtra 411041, India",
+      "displayName": {
+        "text": "Reddys family restaurant",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJo2busTa_wjsRQaMFiBrrYiI",
+      "formattedAddress": "Kakade Plaza, Karve Rd, Warje Jakat Naka, Karvenagar, Pune, Maharashtra 411052, India",
+      "displayName": {
+        "text": "Joy's Veg & Non-Veg Restaurant - Best Restaurant In Karve Nagar",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "People say this North Indian restaurant serves delicious chicken and mutton thalis, as well as flavorful biryani and tandoori chicken. They highlight the generous portions, authentic taste, and affordable prices. They also like the friendly and attentive staff.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOnlUNWFkVGlvTW8yUnVIQUJhdmIxdXc%7CCAIQACorChtyc19oOnlUNWFkVGlvTW8yUnVIQUJhdmIxdXcSDAi_2OfEBhD44ZHwAg&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc2bf36b1ee66a3:0x2262eb1a8805a341!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJIyZwA1CVwjsR0eODGyLQ-xw",
+      "formattedAddress": "Sinhagad collage near vadgaon budruk, near meenakshi Puram, Meenakshipuram, society, Pune, Maharashtra 411041, India",
+      "displayName": {
+        "text": "Meenakshi garden veg nonveg restaurant ️",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJ0VIl-vq_wjsR31pg23Uuu_c",
+      "formattedAddress": "Shop No 1, Enclave No. 1, Aditya Nakoda Enclave, Sinhagad Road, Sarita Vihar Phase 2, Dattawadi, Pune, Maharashtra 411030, India",
+      "displayName": {
+        "text": "Satkar Rice Plate House",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "Diners say this seafood restaurant serves delicious Malvani fish thali, with options like Surmai, Prawns, and Clams, all accompanied by unlimited rice and gravy. They also highlight the authentic taste of the gravy and the inclusion of unique dishes like fish koshimbir, clams, and shark fish.\n\nSome reviews mention the food can be overpriced.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOnNXZEt0dGoya20tdnh4NVphc05iNFE%7CCAIQACorChtyc19oOnNXZEt0dGoya20tdnh4NVphc05iNFESDAjr6NfBBhCYiYnyAQ&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc2bffafa2552d1:0xf7bb2e75db605adf!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJMZ5PnwuVwjsR0OiwxpTGQgU",
+      "formattedAddress": "303A, 3rd Floor, Grand Horizon, Wadgaon Bk, Sinhgad Rd, near Santosh Hall, Manik Baug, Anand Nagar, Pune, Maharashtra 411041, India",
+      "displayName": {
+        "text": "Urban Harvest - Fine Food & Cocktails",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "People say this restaurant serves delicious chicken, paneer starters, and Khao Suey. They highlight the rooftop dining area, the friendly staff, and the good value. They also like the cozy and pleasant atmosphere.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOlQwT29pb2Q1dUVVVGJ1dWQ2cFBQVkE%7CCAIQACorChtyc19oOlQwT29pb2Q1dUVVVGJ1dWQ2cFBQVkESDAjZ47nFBhCgpoTnAg&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc2950b9f4f9e31:0x542c694c6b0e8d0!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJzZgHCgC_wjsRtttVPMqPsuQ",
+      "formattedAddress": "DAMODAR VILLA,BEHIND AMIT BAR,LANE NO.4, Sinhgad Rd, Hingne Khurd, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "HOTEL AAI TULJABHAVANI VEG NON-VEG",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJ00pG1giVwjsRDgUY5H4oXuI",
+      "formattedAddress": "Public food Mall, Sinhgad Rd, near DK Biryani, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411068, India",
+      "displayName": {
+        "text": "Mukkam Post Kolhapur Family Restaurant| Kolhapur Thali Special",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJs02p5vqVwjsRLdbDS5YZxIk",
+      "formattedAddress": "Korade Food Mall, Nanded City Sinhgad Rd, near swimming pool, Ghule Patil Nagar, Korade Bag, Nanded, Pune, Maharashtra 411068, India",
+      "displayName": {
+        "text": "The Non Veg Hut",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "Diners say this food court offers delicious, authentic, and reasonably priced non-veg dishes, including chicken masala, mutton masala, and seafood. They also highlight the friendly and attentive service, and the clean and well-maintained dining environment.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOmdTZ1VPMmlkMHppNkxTTkdKUkh0VEE%7CCAIQACorChtyc19oOmdTZ1VPMmlkMHppNkxTTkdKUkh0VEESDAijuMvBBhD42LmpAg&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc295fae6a94db3:0x89c419964bc3d62d!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJN2_C6YGVwjsRqopVq0rrIvo",
+      "formattedAddress": "Terrace Level, Abhiruchi Mall & Multiplex, 59/1C, Sinhgad Rd, Bhide Baug, Wadgaon Budruk, Narhe, Pune, Maharashtra 411041, India",
+      "displayName": {
+        "text": "Abhiruchi Gokul Restaurant",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "People say this fine dining restaurant offers delicious food and a wide variety of options. They also highlight the nice traditional theme, good music, and great atmosphere, as well as the polite and cooperative staff.\n\nOther reviews mention the service can be slow.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOlo2d056enN2OVhiSnNYS0Ytdi1UelE%7CCAIQACorChtyc19oOlo2d056enN2OVhiSnNYS0Ytdi1UelESDAi35ovGBhDoytSZAw&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc29581e9c26f37:0xfa22eb4aab558aaa!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJrVW6oN6VwjsRROaFH-8DDjQ",
+      "formattedAddress": "Khau galli, opp. Nanded City Road, Nanded Fata, Pandurang Industrial Area, Vadgoan, Pune, Maharashtra 411068, India",
+      "displayName": {
+        "text": "Hotel Osari Veg NonVeg",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "People say this restaurant serves delicious chicken, fish, and mutton thalis, with fresh chapatis and flavorful curries. They highlight the generous portions, authentic taste, and homemade masalas. They also like the quick and polite service, and the simple yet comfortable atmosphere.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOjQ5dUZjM3N3M2ZURTdpZmtqeEgwdHc%7CCAIQACorChtyc19oOjQ5dUZjM3N3M2ZURTdpZmtqeEgwdHcSDAi_nIzGBhCgpcTwAQ&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc295dea0ba55ad:0x340e03ef1f85e644!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJ8ZtrJ5uVwjsRCjL_tlwfkeY",
+      "formattedAddress": "Danka, Goel Ganga Khau Galli, Sinhgad Rd, Manik Baug, Anand Nagar, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "Maratha Da Dhaba - Best Pure Veg Restaurant in Pune",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJvYFx5ROVwjsRqjNUTwRo2cw",
+      "formattedAddress": "Main Gate, 41, Sinhgad Rd, next to Nanded City, opposite Bharat Petroleum, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411068, India",
+      "displayName": {
+        "text": "Ranmala Restaurant, Sinhgad Road",
+        "languageCode": "en"
+      }
+    },
+    {
+      "id": "ChIJcySlOce_wjsRtFBtjgUJR7Q",
+      "formattedAddress": "5th & 6th floor, Ranka Jewellers Pvt. Ltd., Sinhgad Rd, Vittalvadi, Hingne Khurd, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "The Sky Kitchen & Banquets",
+        "languageCode": "en"
+      },
+      "reviewSummary": {
+        "text": {
+          "text": "People say this vegetarian restaurant offers tasty Oriental and Indian cuisines, with dishes like Dahi ke Kebab and Singapore noodles. They highlight the good food quality, generous portions, and reasonable prices, as well as the pleasant rooftop ambience with a view. They also like the friendly and attentive service provided by the staff.",
+          "languageCode": "en-US"
+        },
+        "flagContentUri": "https://www.google.com/local/review/rap/report?postId=5%401:CAIQACodChtyc19oOjRsdGxsNUFJS0F0RnU3Q21pTWtrM2c%7CCAIQACorChtyc19oOjRsdGxsNUFJS0F0RnU3Q21pTWtrM2cSDAi35ovGBhDoytSZAw&d=17924085&t=8",
+        "disclosureText": {
+          "text": "Summarized with Gemini",
+          "languageCode": "en-US"
+        },
+        "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3bc2bfc739a52473:0xb44709058e6d50b4!9m1!1b1"
+      }
+    },
+    {
+      "id": "ChIJQRi1aPq_wjsRq_NGpGCm-0Y",
+      "formattedAddress": "Shop no 1, Chandrama residency, opp to Fire brigade station, Sinhgad Rd, near Sun City, Anand Nagar, Pune, Maharashtra 411051, India",
+      "displayName": {
+        "text": "One Way Foods",
+        "languageCode": "en"
+      }
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+with lat and long
+
+curl -X POST -d '{
+  "textQuery" : "Spicy Non-veg food in Sinhgad Road, Pune, India"
+}' -H 'Content-Type: application/json' -H 'X-Goog-Api-Key: AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo' -H 'X-Goog-FieldMask: places.displayName,places.formattedAddress,places.id,places.location' 'https://places.googleapis.com/v1/places:searchText'
+
+
+
+
+
+
+ {
+      "id": "ChIJvYFx5ROVwjsRqjNUTwRo2cw",
+      "formattedAddress": "Main Gate, 41, Sinhgad Rd, next to Nanded City, opposite Bharat Petroleum, Nanded Fata, Pandurang Industrial Area, Nanded, Pune, Maharashtra 411068, India",
+      "location": {
+        "latitude": 18.4555021,
+        "longitude": 73.7992355
+      },
+      "displayName": {
+        "text": "Ranmala Restaurant, Sinhgad Road",
+        "languageCode": "en"
+      }
+    }
+
+
+
+
+place details
+
+
+curl -X GET -H 'Content-Type: application/json' \
+-H "X-Goog-Api-Key: AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo" \
+-H "X-Goog-FieldMask: id,displayName,priceRange, rating " \
+https://places.googleapis.com/v1/places/ChIJqWEboO2VwjsRuMuQdF__EnY
+
+
+
+
+ curl -X GET -H 'Content-Type: application/json' -H "X-Goog-Api-Key: AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo" -H "X-Goog-FieldMask: id,displayName,priceRange,rating,userRatingCount,currentOpeningHours" https://places.googleapis.com/v1/places/ChIJqWEboO2VwjsRuMuQdF__EnY
+
+
+======================================================================================================
+weather api
+
+
+curl -X GET "https://weather.googleapis.com/v1/currentConditions:lookup?key=AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo&location.latitude=18.4555021&location.longitude=73.7992355"
+
+
+
+
+
+ curl -X GET "https://weather.googleapis.com/v1/currentConditions:lookup?key=AIzaSyCT-ISk5rRd9rP6WLBBdFspUmUDNbRx9Xo&location.latitude=18.4555021&location.longitude=73.7992355"
+{
+  "currentTime": "2025-09-19T09:35:28.619167853Z",
+  "timeZone": {
+    "id": "Asia/Calcutta"
+  },
+  "isDaytime": true,
+  "weatherCondition": {
+    "iconBaseUri": "https://maps.gstatic.com/weather/v1/strong_tstorms",
+    "description": {
+      "text": "Light thunderstorms and rain",
+      "languageCode": "en"
+    },
+    "type": "LIGHT_THUNDERSTORM_RAIN"
+  },
+  "temperature": {
+    "degrees": 25.6,
+    "unit": "CELSIUS"
+  },
+  "feelsLikeTemperature": {
+    "degrees": 28.4,
+    "unit": "CELSIUS"
+  },
+  "dewPoint": {
+    "degrees": 23,
+    "unit": "CELSIUS"
+  },
+  "heatIndex": {
+    "degrees": 28.4,
+    "unit": "CELSIUS"
+  },
+  "windChill": {
+    "degrees": 25.6,
+    "unit": "CELSIUS"
+  },
+  "relativeHumidity": 85,
+  "uvIndex": 1,
+  "precipitation": {
+    "probability": {
+      "percent": 75,
+      "type": "RAIN"
+    },
+    "snowQpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    },
+    "qpf": {
+      "quantity": 2.0269,
+      "unit": "MILLIMETERS"
+    }
+  },
+  "thunderstormProbability": 59,
+  "airPressure": {
+    "meanSeaLevelMillibars": 1008.06
+  },
+  "wind": {
+    "direction": {
+      "degrees": 270,
+      "cardinal": "WEST"
+    },
+    "speed": {
+      "value": 11,
+      "unit": "KILOMETERS_PER_HOUR"
+    },
+    "gust": {
+      "value": 21,
+      "unit": "KILOMETERS_PER_HOUR"
+    }
+  },
+  "visibility": {
+    "distance": 11,
+    "unit": "KILOMETERS"
+  },
+  "cloudCover": 91,
+  "currentConditionsHistory": {
+    "temperatureChange": {
+      "degrees": -1.8,
+      "unit": "CELSIUS"
+    },
+    "maxTemperature": {
+      "degrees": 27.4,
+      "unit": "CELSIUS"
+    },
+    "minTemperature": {
+      "degrees": 22.1,
+      "unit": "CELSIUS"
+    },
+    "snowQpf": {
+      "quantity": 0,
+      "unit": "MILLIMETERS"
+    },
+    "qpf": {
+      "quantity": 15.9207,
+      "unit": "MILLIMETERS"
+    }
+  }
+}

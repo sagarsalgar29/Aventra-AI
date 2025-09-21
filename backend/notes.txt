@@ -1,0 +1,7 @@
+pip install -q -U google-genai 
+
+pip install google-adk -q
+
+pip install firebase-admin
+
+pip install fastapi uvicorn firebase-admin pydantic

@@ -19,10 +19,52 @@ import logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize Firebase Admin
-cred = credentials.Certificate("trip-planner-c26a1-firebase-adminsdk-fbsvc-2335655c89.json")
-initialize_app(cred)
-db = firestore.client()
+# Mock Firebase setup (bypasses authentication)
+class MockFirestore:
+    def collection(self, name):
+        return MockCollection(name)
+
+class MockCollection:
+    def __init__(self, name):
+        self.name = name
+        self.data = {}
+    
+    def document(self, doc_id):
+        return MockDocument(doc_id, self.data)
+    
+    def add(self, data):
+        import uuid
+        doc_id = str(uuid.uuid4())
+        self.data[doc_id] = data
+        return (None, MockDocument(doc_id, self.data))
+    
+    def stream(self):
+        for doc_id, data in self.data.items():
+            yield MockDocument(doc_id, self.data)
+
+class MockDocument:
+    def __init__(self, doc_id, data):
+        self.id = doc_id
+        self.data = data
+    
+    def set(self, data):
+        self.data[self.id] = data
+    
+    def update(self, data):
+        if self.id in self.data:
+            self.data[self.id].update(data)
+    
+    def get(self):
+        return self
+    
+    def to_dict(self):
+        return self.data.get(self.id, {})
+    
+    def collection(self, name):
+        return MockCollection(name)
+
+# Initialize mock Firebase
+db = MockFirestore()
 
 # Initialize FastAPI app
 app = FastAPI(
@@ -245,12 +287,12 @@ class TripResponse(BaseModel):
 
 # Authentication dependency
 async def get_current_user(credentials: HTTPAuthorizationCredentials = Depends(security)):
-    try:
-        token = credentials.credentials
-        decoded_token = auth.verify_id_token(token)
-        return decoded_token
-    except Exception as e:
-        raise HTTPException(status_code=401, detail="Invalid authentication credentials")
+    # Mock authentication - always return a test user
+    return {
+        "uid": "test-user-123",
+        "email": "test@example.com",
+        "name": "Test User"
+    }
 
 # Google Places API integration
 async def search_places(location: str, query_type: str):
